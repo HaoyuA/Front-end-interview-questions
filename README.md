@@ -12,7 +12,7 @@
 笔记
 
 * CSS
-  * 弹性布局（flex layout）
+  * [弹性布局（flex layout）](https://github.com/HaoyuA/Front-end-interview-questions/blob/main/note/CSS/flex-layout.md)
   * 栅格布局  (grid layout)
 * JavaScript
   * ES6笔记
