@@ -9,7 +9,7 @@
 - JavaScript
 - React
 - Git & Webpack
-- Linux
+- [Linux](https://github.com/HaoyuA/Front-end-interview-questions/blob/main/note/Linux/linux.md)
 
 笔记
 
