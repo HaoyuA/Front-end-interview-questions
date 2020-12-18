@@ -1,18 +1,3 @@
----
-layout:     post
-title:      "html笔记"
-subtitle:   "方便思维导图找知识点"
-date:       2020-04-14 10:00:00
-author:     "Haoyu"
-header-img: "img/post-bg-html.jpg"
-tags:
-    - 前端开发
-    - HTML
-    - 笔记
----
-
-
-
 # HTML笔记
 
 [TOC]
