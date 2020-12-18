@@ -13,7 +13,7 @@
 * **Ctrl + Shift + P 输命令**  
 * **Shift + Alt + F 对齐**
 * **Ctrl + [  or ]   实现文本 向左或向右移动**
-* [emmet语法](## emmet语法)
+* [## emmet语法](https://github.com/HaoyuA/Front-end-interview-questions/blob/main/note/HTML/HTML%E7%AC%94%E8%AE%B0.md#emmet%E8%AF%AD%E6%B3%95)
 
 ## HTML简介
 
