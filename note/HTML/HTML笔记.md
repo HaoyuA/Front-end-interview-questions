@@ -116,6 +116,16 @@ title
 
 标题
 
+## 常用标签
+
+[a]()
+
+[img]()
+
+[table]()
+
+[form]()
+
 ## 标签
 
  **双标签/单标签**
@@ -163,6 +173,42 @@ pre标签
 ```
 
 #### &lt;a&gt;
+
+常用属性
+
+* href 超链接
+
+  * 网址
+
+    https://google.com
+
+    http://google.com
+
+    //google.com 会自动选择http 或https
+
+  * 路径
+
+    绝对路径或相对路径
+
+  * 伪协议
+
+    javascript:;
+
+    mail:to邮件
+
+    tel:手机
+
+  * id
+
+    href = #xxx 跳到某个叫xxxid 的位置
+
+* target 指定在那个窗口打开  
+  * target = _black 就是在**空白页**打开
+  * _self 默认值 **当前页面**打开
+  * _top **顶层页面**打开 iframe中 才会体现
+  * _parent  **父级页面**打开 iframe中 才会体现
+  * target = 'xxx'呢 找一个叫xxx的窗口打开 没有就新建一个 （```window.name``` =>xxx）
+* rel =noopener ? 
 
 ```html
     <p>anchor 锚点标签
@@ -238,6 +284,28 @@ pre标签
 
 #### 表单(form)
 
+属性 
+
+* action 目标地址
+
+* method  就是请求的属性
+
+  POST/GET
+
+* autocomplete 自动填充
+* target 同 a 标签
+
+事件
+
+ onsubmit 
+
+```html
+<input type = 'submit' value = '提交'>  或者
+<button type = 'submit'> 提交</button>  两者区别是button 里可以加任何标签 input 不行
+```
+
+在多选题时 **name** **必须统一** 这样就只会选一个 value 去传值
+
 ##### text(disable/readonly)
 
 ```html
@@ -247,7 +315,7 @@ pre标签
     -->
     <form method = "GET" action="">
     <!-- input 内联块级元素 inline-block element -->
-        <input name = "user"  type="text" style="width: 400px; height: 100px;"/>123
+    <input name = "user"  type="text" style="width: 400px; height: 100px;"/>123
     
     123
     <p>
@@ -454,6 +522,12 @@ pre标签
 
 #### 表格(table)
 
+头身尾 thead tbody tfoot
+
+tbody  > tr/th/td  > td 
+
+table-layout: auto 宽度由内容决定 /fixed 某一列的宽度仅由该列首行的单元格决定	
+
 ```html
     <!-- 虽然现在不常用 会用来布局 -->
     <!-- caption 标题标签
@@ -577,13 +651,57 @@ pre标签
 
 ### 内联块级元素
 
-#### &lt;image&gt;
+#### &lt;img&gt;
+
+src (source)
+
+地址/相对/绝对路径
+
+alt (alteranative)
+
+图片加载失败显示的内容
+
+onload 
+
+```javascript
+xxx.onload = function (){
+
+console.log('图片加载成功');
+}；
+```
+
+onerror
+
+```  javascript
+xxx.onerror = function (){
+
+console.log('图片加载失败');
+xxx.src = '/404.png'; // 可以作为图片加载失败的措施
+}
+```
+
+响应式
+
+```html
+<style>
+  *{
+    margin:0;
+    padding:0;
+      box-sizing:border-box;
+  }
+  img {
+    max-width:100%;
+  }
+</style>
+```
+
+
 
 ```html
     <!-- 内联块级元素 inline-block element
     不独占一行 可以定义宽高 -->
     alt若图片加载不出可以知道它关于什么
-    <img src="1" alt="1" style="width: 200px; height: 200px;" /> 123
+    <img id = "xxx" src="1" alt="1" style="width: 200px; height: 200px;" /> 123
     <!-- 123不换行 因此不独占一行-->
 ```
 

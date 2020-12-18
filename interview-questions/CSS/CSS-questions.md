@@ -27,4 +27,8 @@
   ul,ol{
     list-style:none;
   }
+  table{
+    border-collapse: collapse;
+    barder-spacing:none;
+  }
 </style>
