@@ -9,7 +9,7 @@
 - JavaScript
 - React
 - Git & Webpack
-- [Linux](https://github.com/HaoyuA/Front-end-interview-questions/blob/main/note/Linux/linux.md)
+
 
 笔记
 
@@ -18,3 +18,4 @@
   - 栅格布局 (grid layout)
 - JavaScript
   - ES6 笔记
+- [Linux](https://github.com/HaoyuA/Front-end-interview-questions/blob/main/note/Linux/linux.md)
