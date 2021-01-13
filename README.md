@@ -20,3 +20,5 @@
 - JavaScript
   - ES6 笔记
 - [Linux](https://github.com/HaoyuA/Front-end-interview-questions/blob/main/note/Linux/linux.md)
+- 网络通信
+  - [浅析URL](https://github.com/HaoyuA/Front-end-interview-questions/blob/main/note/Network/URL.md)
