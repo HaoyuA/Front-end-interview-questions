@@ -119,7 +119,7 @@ display:none到blcok就不行
 
 需要用 visibility:hidden => visible
 
-[跳动的心transition版]( http://js.jirengu.com/nufid/3/edit?html,css,output)
+[跳动的心transition版]( http://js.jirengu.com/nufid/3/edit?html,css,js,output)
 
 
 

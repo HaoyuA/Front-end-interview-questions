@@ -166,3 +166,9 @@ Object.assign(obj, {age: 18，gender: 'man' })
 
 
 
+new X() 一共做了4件事：
+
+1. 自动创建一个新对象
+2. 把 这个新对象关联到原型 原型地址为X.prototype
+3. 自动将空对象作为this关键字运行构造函数
+4. 自动return this
