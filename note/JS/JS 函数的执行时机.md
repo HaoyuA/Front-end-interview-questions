@@ -31,7 +31,7 @@ for(i = 0; i<6; i++){
 for (let i = 0; i < 6; i++) {
     setTimeout(function () {
         console.log(i);
-    }, 1000)
+    }, 0)
 }
 
 ```
@@ -47,7 +47,7 @@ for (var i = 0; i < 6; i++) {
 	(function (a) {
 		setTimeout(function () {
         	console.log(a);
-    	}, 1000);
+    	}, 0);
 	}(i));  
 }
 ```
