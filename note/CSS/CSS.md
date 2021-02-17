@@ -176,7 +176,9 @@ animation: slidein 3s;
 * 类选择器` .container{}`
 * id 选择器 `#box {}`
 * 并列选择器 `<p class="tip tip-success">tip success</p> .tip{} .tip.tip-success{} `  
-* 派生/父子选择器 
+* 子选择器 `div > span{}`  直选亲儿子
+* 后代选择器 ` li li{}`
+* 相邻兄弟选择器 ` img + p{}`
 * 伪类选择器 `.btn.btn.btn-warning:hover{}`
 
 ```html
